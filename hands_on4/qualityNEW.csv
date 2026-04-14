@@ -1,0 +1,32 @@
+Kind,Name,AvgCountLine,AvgCyclomatic,CountLine,MaxCyclomatic,Cyclomatic,RatioCommentToCode,CountLineCode
+File,"app.h",0,0,17,0,,"0,25",8
+File,"auth.c",18,6,198,16,,"0,01",169
+File,"auth.h",0,0,16,0,,"0,33",6
+Function,"auth_add",,,21,,7,"0,00",20
+Function,"auth_change_password",,,5,,2,"0,00",5
+Function,"auth_check",,,20,,9,"0,00",20
+Function,"auth_delete",,,5,,2,"0,00",5
+Function,"auth_init",,,10,,3,"0,00",10
+Function,"auth_rename_user",,,15,,4,"0,00",13
+Function,"cancella_utente",,,15,,3,"0,14",14
+File,"config.h",0,0,5,0,,"0,00",0
+Function,"crea_utente",,,24,,3,"0,10",20
+Static Function,"ct_str_eq",,,10,,5,"0,00",10
+Static Function,"debug_extra",,,34,,15,"0,00",32
+Function,"demo_comment_mix",,,26,,1,"1,00",6
+Function,"demo_ub",,,12,,2,"0,00",12
+Function,"demo_unspecified",,,6,,1,"0,00",6
+Function,"effettua_login",,,20,,4,"0,00",19
+Static Function,"f_side",,,1,,1,"0,00",1
+Static Function,"find_user",,,22,,5,"0,00",22
+Static Function,"g_side",,,1,,1,"0,00",1
+Function,"main",,,58,,15,"0,04",51
+File,"main.c",20,6,342,18,,"0,08",263
+Static Function,"modifica_password",,,41,,18,"0,00",35
+Function,"modifica_utente",,,20,,8,"0,00",18
+Static Function,"operazione_composita",,,7,,5,"0,00",7
+File,"pthread_compat.h",0,0,48,0,,"0,00",0
+Function,"read_line",,,10,,3,"0,00",10
+Static Function,"rewrite_db_skip_or_replace",,,62,,16,"0,02",53
+Static Function,"rinomina_utente",,,31,,14,"0,00",27
+Static Function,"trim_nl",,,6,,2,"0,00",6
