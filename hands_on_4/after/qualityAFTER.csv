@@ -1,0 +1,24 @@
+Kind,Name,AvgCountLine,AvgCyclomatic,CountLine,MaxCyclomatic,Cyclomatic,RatioCommentToCode,CountLineCode,AvgCountLineBlank,AvgCountLineCode,AvgCountLineComment,CCViolDensityCode,CCViolDensityLine,CountCCViol,CountCCViolType,CountClassBase,CountClassCoupled,CountClassDerived,CountDeclClass,CountDeclClassMethod,CountDeclClassVariable,CountDeclFile,CountDeclFileCode,CountDeclFileHeader,CountDeclFunction,CountDeclInstanceMethod,CountDeclInstanceVariable,CountDeclInstanceVariablePrivate,CountDeclInstanceVariableProtected,CountDeclInstanceVariablePublic,CountDeclMethod,CountDeclMethodAll,CountDeclMethodConst,CountDeclMethodFriend,CountDeclMethodPrivate,CountDeclMethodProtected,CountDeclMethodPublic,CountInput,CountLineBlank,CountLineCodeDecl,CountLineCodeExe,CountLineComment,CountLineInactive,CountLinePreprocessor,CountOutput,CountSemicolon,CountStmt,CountStmtDecl,CountStmtEmpty,CountStmtExe,MaxInheritanceTree,MaxNesting,PercentLackOfCohesion,SumCyclomatic
+File,"app.h",0,0,17,0,,"0,25",8,0,0,0,"0,00","0,00",0,0,,,,0,,,,,,0,,,,,,,,,,,,,,4,0,0,2,0,4,,8,8,8,0,0,,0,,0
+File,"auth.c",18,6,198,16,,"0,01",169,1,16,0,"0,00","0,00",0,0,,,,0,,,,,,10,,,,,,,,,,,,,,23,54,125,1,0,5,,116,170,58,0,127,,3,,55
+File,"auth.h",0,0,16,0,,"0,33",6,0,0,0,"0,00","0,00",0,0,,,,0,,,,,,0,,,,,,,,,,,,,,4,0,0,2,0,6,,6,6,6,0,0,,0,,0
+Function,"auth_add",,,21,,7,"0,00",20,,,,"0,00","0,00",0,0,,,,,,,,,,,,,,,,,,,,,,,3,1,2,16,0,0,0,8,13,19,1,0,19,,2,,
+Function,"auth_change_password",,,5,,2,"0,00",5,,,,"0,00","0,00",0,0,,,,,,,,,,,,,,,,,,,,,,,3,0,2,3,0,0,0,2,3,4,1,0,3,,1,,
+Function,"auth_check",,,20,,9,"0,00",20,,,,"0,00","0,00",0,0,,,,,,,,,,,,,,,,,,,,,,,3,0,8,16,0,0,0,5,16,22,10,0,15,,2,,
+Function,"auth_delete",,,5,,2,"0,00",5,,,,"0,00","0,00",0,0,,,,,,,,,,,,,,,,,,,,,,,1,0,2,3,0,0,0,2,3,4,1,0,3,,1,,
+Function,"auth_init",,,10,,3,"0,00",10,,,,"0,00","0,00",0,0,,,,,,,,,,,,,,,,,,,,,,,2,0,2,7,0,0,0,5,6,8,1,0,8,,1,,
+Function,"auth_rename_user",,,15,,4,"0,00",13,,,,"0,00","0,00",0,0,,,,,,,,,,,,,,,,,,,,,,,4,2,3,10,0,0,0,6,9,12,2,0,11,,1,,
+File,"config.h",0,0,5,0,,"0,00",0,0,0,0,"0,00","0,00",0,0,,,,0,,,,,,0,,,,,,,,,,,,,,1,0,0,1,0,4,,0,0,0,0,0,,0,,0
+Static Function,"ct_str_eq",,,10,,5,"0,00",10,,,,"0,00","0,00",0,0,,,,,,,,,,,,,,,,,,,,,,,3,0,6,7,0,0,0,2,8,11,7,0,6,,1,,
+Static Function,"debug_extra",,,13,,6,"0,00",12,,,,"0,00","0,00",0,0,,,,,,,,,,,,,,,,,,,,,,,1,1,2,8,0,0,0,5,8,13,1,2,10,,2,,
+Static Function,"find_user",,,22,,5,"0,00",22,,,,"0,00","0,00",0,0,,,,,,,,,,,,,,,,,,,,,,,7,0,5,16,0,0,0,8,12,16,4,0,13,,3,,
+File,"main.c",15,7,137,13,,"0,04",99,2,14,0,"0,00","0,00",0,0,,,,0,,,,,,7,,,,,,,,,,,,,,26,24,72,4,0,8,,69,125,30,4,93,,2,,48
+Static Function,"modifica_password",,,22,,5,"0,00",18,,,,"0,00","0,00",0,0,,,,,,,,,,,,,,,,,,,,,,,1,4,4,14,0,0,0,6,12,16,4,0,14,,1,,
+Function,"modifica_utente",,,15,,8,"0,00",14,,,,"0,00","0,00",0,0,,,,,,,,,,,,,,,,,,,,,,,0,1,3,11,0,0,0,7,10,18,2,2,14,,2,,
+Static Function,"print_username_info",,,9,,6,"0,00",8,,,,"0,00","0,00",0,0,,,,,,,,,,,,,,,,,,,,,,,2,1,2,6,0,0,0,2,6,11,1,0,10,,1,,
+File,"pthread_compat.h",0,0,48,0,,"0,00",0,0,0,0,"0,00","0,00",0,0,,,,0,,,,,,0,,,,,,,,,,,,,,2,0,0,1,39,15,,0,0,0,0,0,,0,,0
+Static Function,"rewrite_db_skip_or_replace",,,62,,16,"0,02",53,,,,"0,00","0,00",0,0,,,,,,,,,,,,,,,,,,,,,,,8,8,17,43,1,0,0,16,43,56,15,0,46,,3,,
+Static Function,"rinomina_utente",,,19,,4,"0,00",16,,,,"0,00","0,00",0,0,,,,,,,,,,,,,,,,,,,,,,,1,3,2,12,0,0,0,7,10,14,2,0,12,,1,,
+Static Function,"run_stress_test",,,9,,6,"0,00",9,,,,"0,00","0,00",0,0,,,,,,,,,,,,,,,,,,,,,,,1,0,3,6,0,0,0,2,7,10,2,0,8,,2,,
+Static Function,"trim_nl",,,6,,2,"0,00",6,,,,"0,00","0,00",0,0,,,,,,,,,,,,,,,,,,,,,,,3,0,2,3,0,0,0,2,2,3,1,0,3,,1,,
+Static Function,"validate_password_content",,,21,,13,"0,00",18,,,,"0,00","0,00",0,0,,,,,,,,,,,,,,,,,,,,,,,3,3,4,15,0,0,0,2,16,32,7,0,25,,2,,
